@@ -1,0 +1,24 @@
+{
+  "name": "mpris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "examples/index.js",
+  "scripts": {
+    "start": "electron src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sindresorhus/slugify": "^1.1.0",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "commander": "^6.2.1",
+    "dbus-next": "^0.9.1",
+    "electron-positioner": "^4.1.0",
+    "extract-css": "^2.0.0",
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
